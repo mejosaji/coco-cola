@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 125px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.co-logo{
+    width: 100%;
+    height: 82px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+
+}
+.co-logo img{
+    object-fit: contain;
+    width:251px ;
+
+}
+.menu{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+.m-font{
+    color: black;
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+.l-font{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 82px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.body1{
+    width: 100%;
+    height: 500px;
+    
+    background-image: url(/Desktop-One-step-closer-to-a-World-Without-Waste.webp);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
+    overflow: hidden;
+}
+.body11{
+    width: 300px;
+    height: 400px;
+    
+}
+.b11{
+    font-size: 50px;
+}
+.body-t{
+    
+    justify-content: center;
+}
+.body-t h3{
+    margin-top: 10px;
+}
+h1{
+    color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h3{
+    color:whitesmoke;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body2{
+    width: 100%;
+    height: 500px;
+    background-image: url(/img.jpeg);
+    background-size: cover;   
+    
+    
+    
+}
+.body22{
+    width: 300px;
+    height: 400px;
+    
+    float: right;
+    margin-right: 173px;
+    
+margin-top: 80px
+}
+.body3{
+    width: 100%;
+    height: 500px;
+    background-image: url(/01.26796856.1.jpg);
+    background-size: cover;
+
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(56, 54, 54);
+    color: white;
+
+    
+}
+.f-logo{
+    width: 300px;
+    height: 50px;
+    background-image: url(/company\ footer\ .svg);
+    margin-top: 10px;
+}
+.m-footer li{
+    display: inline-block;
+    list-style-type: none; 
+}
+.m-footer{
+    color: white;
+
+}
